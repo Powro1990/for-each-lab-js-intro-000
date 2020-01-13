@@ -4,7 +4,7 @@ function iterativeLog(array){
 }
 
 function iterate(callback){
-  var array = []
+  var array = [1, 2]
   array.forEach(callback);
   return array;
 }
